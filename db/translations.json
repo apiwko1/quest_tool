@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "6333605c41eab471c64e01af"
+  },
+  "description": "Are you `HS?",
+  "content": "Czy jesteś wysoko wrażliwy",
+  "language": {
+    "$oid": "6332a93e41eab471c64e01ac"
+  }
+},{
+  "_id": {
+    "$oid": "6333638641eab471c64e01bf"
+  },
+  "decription": "Do you like cats",
+  "content": "Czy lubisz koty? ",
+  "language": {
+    "$oid": "6332a93e41eab471c64e01ac"
+  }
+},{
+  "_id": {
+    "$oid": "633363ff41eab471c64e01c1"
+  },
+  "content": "Czy cęsto się denerwujesz? ",
+  "description": "Do you get nervous often?",
+  "language": {
+    "$oid": "6332a93e41eab471c64e01ac"
+  }
+},{
+  "_id": {
+    "$oid": "633366a641eab471c64e01dc"
+  },
+  "content": "Tak ",
+  "description": "Yes",
+  "language": {
+    "$oid": "6332a93e41eab471c64e01ac"
+  }
+},{
+  "_id": {
+    "$oid": "633366b741eab471c64e01dd"
+  },
+  "content": "Nie ",
+  "description": "No",
+  "language": {
+    "$oid": "6332a93e41eab471c64e01ac"
+  }
+},{
+  "_id": {
+    "$oid": "633366e541eab471c64e01de"
+  },
+  "content": "Nie mam zdania ",
+  "description": "No opinion",
+  "language": {
+    "$oid": "6332a93e41eab471c64e01ac"
+  }
+},{
+  "_id": {
+    "$oid": "63336de341eab471c64e0203"
+  },
+  "content": "Polska ",
+  "description": "Poland",
+  "language": {
+    "$oid": "6332a93e41eab471c64e01ac"
+  }
+}]
