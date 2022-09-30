@@ -6,11 +6,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/quest', {
 });
 
 const schema = new mongoose.Schema({
-    language: {
-        type: mongoose.Types.ObjectId,
-        ref: 'Language'
-    },
-    description: String,
+    language: mongoose.Types.String,    
     content: String
 })
 
