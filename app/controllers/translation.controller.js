@@ -2,7 +2,7 @@
 const Translation = require('../models/Translation');
 
 function translationList(cb){
-    Translation.find().populate('language').lean().exec((err, translations)=>{
+    Translation.find().lean().exec((err, translations)=>{
         if(err){
             cb(err);
         }else{
