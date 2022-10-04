@@ -44,7 +44,7 @@
   "_id": {
     "$oid": "6336e2e25d3c96dfb71682eb"
   },
-  "content": "are yo hsy",
+  "content": "are yo hsy boy",
   "language": "en",
   "nr": "1"
 },{
@@ -75,4 +75,11 @@
   "content": "no opinion ",
   "language": "en",
   "nr": "6"
+},{
+  "_id": {
+    "$oid": "633c1fc27c0691728f39eab0"
+  },
+  "language": "pl",
+  "content": "Ala ma kota abccde",
+  "__v": 0
 }]

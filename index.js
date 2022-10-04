@@ -17,8 +17,8 @@ app.set('views', path.join(__dirname, './views'));
 
 
 const translation = require('./app/controllers/translation.controller');
-const answer = require('./app/controllers/answer.controller');
-const userController = require('./app/controllers/user.controller');
+// const answer = require('./app/controllers/answer.controller');
+// const userController = require('./app/controllers/user.controller');
 
 
 // app.get('/', (req, res) => {
@@ -51,19 +51,19 @@ const userController = require('./app/controllers/user.controller');
 //     res.render('home');
 // });
 
-app.get('/user/:id', (req, res) => {
-    user.get(req.params.id, function (err, user) {
-        if (err) {
-            // res.send(err);
-        } else {
-            // res.render('user', user);
-            console.log(user);
-        }
-    })
-});
+// app.get('/user/:id', (req, res) => {
+//     user.get(req.params.id, function (err, user) {
+//         if (err) {
+//             // res.send(err);
+//         } else {
+//             // res.render('user', user);
+//             console.log(user);
+//         }
+//     })
+// });
 
 
-app.get('/user', userController.list)
+// app.get('/user', userController.list)
 
 app.listen(8080, () => {
     console.log('start ');
